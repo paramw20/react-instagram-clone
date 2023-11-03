@@ -2,13 +2,15 @@ import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCXyJAggdftc1y1gcUu-SWlgwe-TaThP_A",
-  authDomain: "instagram-clone-6fa4d.firebaseapp.com",
-  projectId: "instagram-clone-6fa4d",
-  storageBucket: "instagram-clone-6fa4d.appspot.com",
-  messagingSenderId: "717508443850",
-  appId: "1:717508443850:web:f9eee947387c9d1f82fe33",
+  apiKey: "AIzaSyBdC7awhQA-DMcoGnt_6XxoyWTftB0DN8o",
+  authDomain: "insta-c1711.firebaseapp.com",
+  projectId: "insta-c1711",
+  storageBucket: "insta-c1711.appspot.com",
+  messagingSenderId: "392910635344",
+  appId: "1:392910635344:web:e332faf08bc5fdf4d02c55",
+  measurementId: "G-X6FB6WPGSN"
 };
 
 const app = initializeApp(firebaseConfig);
+
 export const auth = getAuth();
